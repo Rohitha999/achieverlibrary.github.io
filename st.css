@@ -1,0 +1,211 @@
+body {
+background-color: white;
+margin: 0px;
+font-family: Verdana, Georgia, serif;
+font-size: 14px;
+}
+
+header {
+background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+margin: 5px;
+height: 140px;
+border-radius: 10px;
+}
+footer
+{
+background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(192,0,0,1));
+ margin-left:10px; margin-right:10px; margin-top:70px; margin-bottom:10px;
+height: 20px;
+border-radius: 5px;
+}
+}
+
+nav{
+background-color: #E8A87C;
+margin: 5px;
+height: 35px;
+border-radius: 10px;
+
+}
+
+.main{
+background-color: #FBEEC1;
+margin-left: 10px;
+margin-right: 320px;
+margin-top: 10px;
+margin-bottom: 10px;
+border-radius: 5px;
+padding: 20px;
+font-size: 110%;
+
+}
+.main2{
+background-color: white;
+margin-left: 10px;
+margin-right: 20px;
+margin-top: 50px;
+margin-bottom: 10px;
+border-radius: 5px;
+padding: 20px;
+font-size: 25px;
+
+}
+.slide{
+background-color: white;
+margin-left: 10px;
+margin-right: 320px;
+margin-top: 10px;
+margin-bottom: 50px;
+border-radius: 5px;
+padding: 20px;
+font-size: 110%;
+
+}
+.flip-card {
+  background-color: transparent;
+  margin-left:10px; margin-right:10px; margin-top:10px; margin-bottom:10px;
+  float: right;
+  clear:right;
+  width: 300px;
+  height: 200px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+.txt
+{
+background-color: yellow;
+font-family: cursive, sans-serif;
+margin-bottom: 10px;
+margin-top: 15px;
+margin-left: 10px;
+margin-right: 10px;
+height: 20px;
+border-radius: 10px;
+}
+
+
+.sideright {
+background-color: #e5e4d7;
+font-size: 105%;
+padding: 20px;
+width:260px;
+float: right;
+border-radius: 5px;
+margin-left:10px; margin-right:10px; margin-top:10px; margin-bottom:10px;
+clear:right;
+border: red 10px;
+}
+
+
+.sideright-image {
+
+width:300px;
+float: right;
+clear:right;
+
+border-radius: 5px;
+margin-left:10px; margin-right:10px; margin-top:0px; margin-bottom:10px;
+
+
+}
+
+
+.sideright-image a hover {
+
+    opacity: 1.0;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+
+}
+
+h2 {
+font-size: 130%;
+text-shadow: 3px 2px #86C232;
+color: black;
+}
+
+h1 {
+font-size: 50px;
+text-align: center;
+text-shadow: 3px 2px #FFB48F;
+clear: center;
+color: black;
+}
+h3 {
+font-size: 120%;
+text-shadow: 3px 2px #FFB48F;
+color: darkblue;
+}
+p
+{
+	text-align: justify;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: cursive, sans-serif;
+	color: #44318D;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: red;
+}
+.mySlides {
+	display:none;
+	width:300px; 
+	float:right;
+	}
+ a
+ {
+ 	text-decoration: none;
+ }
